@@ -1,0 +1,87 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fonts */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f7fe;
+    background-image: url('images/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  }
+  
+  /* Container */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    background-color: transparent;
+  }
+
+
+  
+  /* Header */
+  .site-header {
+    padding: 20px 0;
+    background-color: #f5f7fe;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-top: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #4E47FF;
+  }
+  
+  .primary-button{
+  margin-top: 50px;
+  padding: 8px 20px;
+  border: none;
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: transparent;
+    
+  }
+  
+  .hero h1 {
+    font-family: 'Raleway',sans-serif;
+    font-size: 32px;
+    color: #252432;
+    margin-bottom: 37px;
+    font-weight: bold;
+    background-color: transparent;
+
+  }
+  
+  .focus-btn {
+    padding: 12px 24px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
