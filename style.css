@@ -149,3 +149,53 @@
   border-radius: 48px;
   margin-bottom: 20px;
 }
+
+
+/* productive user styles */
+
+.productive-section {
+  background-color: #f0f3ff; /* light purple-blue */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.productive-box {
+  background-color: #e3e7ff; /* deeper background inside */
+  padding: 40px;
+  border-radius: 20px;
+  display: inline-block;
+  width: 100%;
+  max-width: 900px;
+}
+
+.productive-title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #252432;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  flex: 1;
+  min-width: 120px;
+  margin: 10px;
+}
+
+.stat-value {
+  font-size: 32px;
+  font-weight: bold;
+  color: #4b5eff; /* vivid blue */
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #555;
+  margin-top: 5px;
+}
