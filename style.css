@@ -278,3 +278,61 @@
 .contact-form button:hover {
   background-color: #4338ca;
 }
+
+
+/* footer */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.f-style {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #666666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  
+} 
+
+.f-container {
+  margin-bottom: 400px;
+  max-width: 600px;
+  padding: 20px;
+
+}
+
+.logo-f {
+  font-size: 55px;
+  color: #4E47FF; /* Indigo-600 */
+  font-weight: 800px;
+  margin-bottom: 20px;
+  
+
+}
+
+.description {
+  font-size: 14px;
+  color: #888888;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  
+}
+
+.nav-links a {
+  margin: 0 15px;
+  font-size: 14px;
+  color: #888888;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #4f46e5;
+}
