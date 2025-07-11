@@ -9,10 +9,11 @@
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f5f7fe;
-    background-image: url('images/Hero-bg.png');
+    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    
 
   }
   
@@ -30,23 +31,28 @@
   .site-header {
     padding: 20px 0;
     background-color: #f5f7fe;
+    background-image: url('images/Hero-bg.png') ;
   }
   
   .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    
   }
   
   .logo {
-    margin-top: 50px;
+    
     font-size: 22px;
     font-weight: bold;
     color: #4E47FF;
+    margin-bottom: 50px;
+
   }
   
   .primary-button{
-  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 8px 20px;
   border: none;
   background-color: #4E47FF;
@@ -61,6 +67,9 @@
     text-align: center;
     padding: 60px 20px;
     background-color: transparent;
+    background-image: url('images/Hero-bg.png');
+    height: 500px;
+
     
   }
   
@@ -71,6 +80,7 @@
     margin-bottom: 37px;
     font-weight: bold;
     background-color: transparent;
+    
 
   }
   
@@ -83,5 +93,59 @@
     font-size: 16px;
     cursor: pointer;
   }
+
+
+
+
+  /* action section */
+
+  .action-section{
+    padding: 150px   150px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+
+  }
   
-  
+  .left-content{
+    margin-top: 30px;
+  }
+
+.style-h2{
+     font-family: 'Raleway', sans-serif;
+     font-size: 42px;
+     font-weight: bold;
+     color: #252432;
+     padding: 23px;
+
+}
+
+.style-p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  color: #25243291 ;
+  padding: 23px;
+  margin-top: -10px;
+
+}
+
+.action-button{
+  padding: 23px;
+}
+
+.third-btn{
+    width: 229px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #4E47FF;
+    margin-top: -20px !important;
+}
+
+.img-content{
+  border-radius: 48px;
+  margin-bottom: 20px;
+}
